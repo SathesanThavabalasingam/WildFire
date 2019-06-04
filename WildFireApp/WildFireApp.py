@@ -17,7 +17,6 @@ with open('nlpmodel.pickle', 'rb') as f:
 
 # create function to assign target text to topic label
 def classify(model,data):
-
     # the dataset to predict on (first two samples were also in the training set so one can compare)
     # Vectorize the training set using the model features as vocabulary
     tf_vectorizer = CountVectorizer(vocabulary=X_text_c_feature_names)
