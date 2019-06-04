@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+.DS_Store
+.idea/
+./fig/
+./backup/
+.ipynb_checkpoints/
+*.pkl
+*.pickle
+*.csv
+*.pyc
