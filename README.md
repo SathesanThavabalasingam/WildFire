@@ -1,7 +1,7 @@
 # [WildFire](https://insight-wildfire.appspot.com/)
 
 ![](./WildFireApp/static/img/logo.png)
-![]*Connecting vendors with the right buyer.*
+<h4 align="center">Connecting vendors with the right buyers.</a></h4>
 
 
 ### What is WildFire?
@@ -21,7 +21,7 @@ Users can select to find a project and be presented with a unique project descri
 
 ### How it Works
 
-![alt text](./WildFireApp/static/img/concept.png)
+![](./WildFireApp/static/img/concept.png)
 
 ### Input and Preprocessing
 
