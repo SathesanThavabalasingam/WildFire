@@ -8,6 +8,11 @@ def get_recommendations(title, cosine_sim, indices):
     # Get the index of the movie that matches the title
     idx = indices[title]
 
+    if len(idx.shape) != 0:
+        idx = idx[:1][0]
+    else:
+        idx = idx
+
     # Get the pairwsie similarity scores of all movies with that movie
     sim_scores = list(enumerate(cosine_sim[idx]))
 
