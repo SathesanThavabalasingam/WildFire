@@ -1,7 +1,7 @@
 # [WildFire](https://insight-wildfire.appspot.com/)
 
 ![](./WildFireApp/static/img/logo.png)
-*Connecting vendors with the right buyer.*
+![]*Connecting vendors with the right buyer.*
 
 
 ### What is WildFire?
