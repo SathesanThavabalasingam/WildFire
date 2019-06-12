@@ -23,7 +23,9 @@ Users can select to find a project and be presented with a unique project descri
 
 ### How it Works
 
-![    ](./WildFireApp/static/img/concept.png)
+<p align = "center">
+<img src="./WildFireApp/static/img/concept.png">
+</p>
 
 ### Input and Preprocessing
 
@@ -37,21 +39,29 @@ Vectorized: TF-IDF stands for “Term Frequency — Inverse Data Frequency”. F
 
 Term Frequency (tf): gives us the frequency of the word in each document in the corpus. It is the ratio of number of times the word appears in a document compared to the total number of words in that document.
 
-![alt text](./WildFireApp/static/img/tf.png)
+<p align = "center">
+<img src="./WildFireApp/static/img/tf.png">
+</p>
 
 Inverse Data Frequency (idf): used to calculate the weight of rare words across all documents in the corpus. 
 
-![alt text](./WildFireApp/static/img/idf.png)
+<p align="center">
+<img src="./WildFireApp/static/img/idf.png">
+</p>
 
 Combining these two we come up with the TF-IDF score (w) for a word in a document in the corpus. It is the product of tf and idf:
 
-![alt text](./WildFireApp/static/img/tfidf.png)
+<p align="center">
+<img src="./WildFireApp/static/img/tfidf.png">
+</p>
 
 ### Topic Modelling with Latent Dirichlecht Allocation
 
 To create a structure that dynamically reflects specific project content, topic modelling can be used. Specifically, Latent Dirilect Allocation (LDA) is a NLP technique that can extract relevant topics from a corpus of documents in an unsupervised manner. Description of LDA 
 
-![alt text](./WildFireApp/static/img/lda.png)
+<p align="center">
+<img src="./WildFireApp/static/img/lda.png">
+</p>
 
 α is the per-document topic distributions,
 
@@ -88,13 +98,17 @@ The topics appear to be mapping on to real content that has been extracted from 
 
 We can see below that for the "construction" topic, the most frequently occurring categorical label is "Building and facility maintenance and repair services". For the "medical/lab" topic, the most frequent categories are "Measuring and observing testing instruments" "Laboratory and scientific equipment" and "Medical diagnostic imaging and nuclear medicine products".
 
-![alt text](./WildFireApp/static/img/topic_category.png)
+<p align="center">
+<img src="./WildFireApp/static/img/topic_category.png">
+</p>
 
 ### Content-Based Recommender System
 
 The recommended projects are provided using cosine similarity. You use the cosine similarity score since it is independent of magnitude and is relatively easy and fast to calculate. Cosine similarity will identify the projects that are the most similar with respect to their content captured in their descriptions (since we are using the Tf-idf matrix).
 
-![alt text](./WildFireApp/static/img/cosine_1.png)
+<p align="center">
+<img src="./WildFireApp/static/img/cosine_1.png">
+</p>
 
 a is the tf-idf weight for term i in the query.
 
