@@ -21,7 +21,7 @@ Users can select to find a project and be presented with a unique project descri
 
 ### How it Works
 
-![](./WildFireApp/static/img/concept.png)
+![ ](./WildFireApp/static/img/concept.png)
 
 ### Input and Preprocessing
 
