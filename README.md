@@ -1,6 +1,6 @@
 # [WildFire](https://insight-wildfire.appspot.com/)
 
-![image alt ><](./WildFireApp/static/img/logo.png)
+![](./WildFireApp/static/img/logo.png)
 *Connecting vendors with the right buyer.*
 
 
