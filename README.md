@@ -10,11 +10,11 @@
 
 Public institutions in Canada spend an estimated $22 billion dollars a year on the buying of goods and services from vendors. A critical problem is that buyers don't know which vendors to select for a given project. Part of this problem stems from the fact that vendors don't always know which projects to bid on. Therefore, the current system for the buying of goods and services in the public sector is inefficient due to:
 
-<p align = "center">
+
 (1) Projects being classified under predefined categories that are too general.
-<br>
+
 (2) Vendors not having any recommendations based on project content.  
-</p>
+
 
 Vendors need a better way to see the projects they bid on. A potential solution for this is to use Natural Language Processing to create a better content-based taxonomy for projects and to provide recommendations. 
 
