@@ -1,8 +1,8 @@
 # [WildFire](https://insight-wildfire.appspot.com/)
-
+<p align = "center">
 ![alt text](./WildFireApp/static/img/logo.png)
-
 *Connecting vendors with the right buyer.*
+</p>
 
 ### What is WildFire?
 
