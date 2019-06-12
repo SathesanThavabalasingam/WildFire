@@ -1,7 +1,7 @@
 # [WildFire](https://insight-wildfire.appspot.com/)
 
 <p align = "center">
-(./WildFireApp/static/img/logo.png)
+<img src="./WildFireApp/static/img/logo.png">
 </p>
 <h4 align="center">Connecting vendors with the right buyers.</a></h4>
 
