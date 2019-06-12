@@ -12,7 +12,6 @@ Public institutions in Canada spend an estimated $22 billion dollars a year on t
 
 <p align = "center">
 (1) Projects being classified under predefined categories that are too general.
-
 (2) Vendors not having any recommendations based on project content.  
 </p>
 
