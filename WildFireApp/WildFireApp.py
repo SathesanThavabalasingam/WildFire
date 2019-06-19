@@ -9,7 +9,10 @@ import CosineRecommender as recs
 # Create the application object
 app = Flask(__name__)
 
-l
+# Load in lda model and required data for backend
+with open('model_nlp_full.pickle', 'rb') as f:
+    lda_model_full, X_text_c_full_feature_names, X_text_c_full, df, indices, cosine_sim = pickle.load(f)
+
 # create function to assign target text to topic label
 def classify(model,data):
     # the dataset to predict on (first two samples were also in the training set so one can compare)
@@ -64,10 +67,3 @@ def add_header(response):
 
 if __name__ == "__main__":
     app.run(debug=True, port=8080) # to run on port 8080
-
-
-# Save model and related elements for later usage in Web Application.
-import pickle
-with open('data.pickle', 'wb') as f:
-    pickle.dump([indices,cosine_sim], f)
-    f.close()
